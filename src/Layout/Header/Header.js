@@ -1,5 +1,7 @@
-import React from 'react';
+import React from 'react' ;
 import './header.css';
+import Cart from '../../Images/Icons/cart.svg';
+import UserIcon from '../../Images/Icons/user.svg';
 
 const Header = () => {
   return (
@@ -10,11 +12,14 @@ const Header = () => {
           <span>Shopping</span>
         </h1>
       </div>
-      <div>
-      
+      <div className="search-box">
+        <span>search</span>
+        <input type="text" />
       </div>
-      <div>
-      
+      <div className="user-box">
+        <span>Sign In</span>
+        <img className="icon" src={UserIcon} />
+        <img className="icon" src={Cart}/>
       </div>
     </div>
   )

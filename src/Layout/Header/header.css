@@ -3,6 +3,7 @@
   justify-content: space-between;
   width: 100%;
   height: 12rem;
+  padding-top: 2rem;
 }
 
 
@@ -11,6 +12,7 @@
 .logo-box {
   margin-left: 5rem;
   transition: all .3s;
+  width: 25rem;
 }
 
 .logo-box:hover {
@@ -28,7 +30,61 @@
 
 .title span:nth-of-type(2) {
   font-size: 2.5rem;
-  text-align: right;
+  text-align: center;
 }
 
 /* Logo CSS settings end */
+
+
+
+/* Search Box CSS settings start */
+.search-box {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.search-box span {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.search-box input {
+  height: 2rem;
+  width: 20rem;
+  border: 0;
+  border-bottom: 1px solid #000;
+  font-size: 1.8rem;
+  padding: 2px;
+  transition: all .2s;
+}
+
+.search-box input:focus {
+  outline: none;
+  width: 25rem;
+}
+
+.icon {
+  width: 3rem;
+}
+
+/* Search Box CSS settings end */
+
+
+
+/* User Box CSS settings start */
+
+.user-box {
+  display: flex;
+  margin-right: 5rem;
+  align-items: center;
+}
+
+.user-box span {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.user-box img:first-of-type {
+  margin-right: 2.5rem;
+}

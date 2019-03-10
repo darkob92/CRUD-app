@@ -1,0 +1,12 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+}

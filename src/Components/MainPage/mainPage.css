@@ -1,0 +1,13 @@
+.main-container {
+  position: absolute;
+  top: 56%;
+  left: 60%;
+  width: 60%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.front-image {
+  width: 80%;
+  height: 80%;
+}

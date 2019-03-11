@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './Layout/Global/global.css';
-import Header from './Layout/Header/Header';
+import './Components/Layout/Global/global.css';
+import Header from './Components/Layout/Header/Header';
 import SideMenu from './Components/SideMenu/SideMenu';
+import  MainPage from './Components/MainPage/MainPage';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <SideMenu/>
+        <MainPage/>
       </div>
     );
   }

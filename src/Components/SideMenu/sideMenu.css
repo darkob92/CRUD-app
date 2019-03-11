@@ -1,0 +1,25 @@
+.menu-container {
+  width: 15%;
+  margin-top: 3rem;
+}
+
+.categories {
+  list-style-type: none;
+  text-align: right;
+}
+
+.categories li {
+  margin-bottom: 2.5rem;
+}
+
+.categories li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.categories li:nth-of-type(7) a {
+  font-weight: 400;
+}

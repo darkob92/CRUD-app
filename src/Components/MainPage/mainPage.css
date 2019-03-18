@@ -1,13 +1,10 @@
 .main-container {
   position: absolute;
-  top: 56%;
-  left: 60%;
-  width: 60%;
-  height: 70%;
-  transform: translate(-50%, -50%);
-}
-
-.front-image {
-  width: 80%;
-  height: 80%;
+  top: 0;
+  left: 30%;
+  width: 50%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }

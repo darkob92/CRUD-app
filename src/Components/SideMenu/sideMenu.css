@@ -3,7 +3,7 @@
   margin-top: 3rem;
 }
 
-.categories {
+ul.categories {
   list-style-type: none;
   text-align: right;
 }
@@ -23,4 +23,19 @@
 .categories li:nth-of-type(7) a {
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+ul.submenu {
+  list-style-type: none;
+  transition: all .3s;
+}
+
+ul.submenu li {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  transition: all .3s;
+}
+
+ul.submenu li:nth-of-type(1) {
+  margin-top: 1.5rem;
 }

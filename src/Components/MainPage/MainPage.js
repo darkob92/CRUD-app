@@ -7,7 +7,7 @@ const slides = [
   { id: 0, url: 'https://images.unsplash.com/photo-1525430182374-bf7e61d4f220?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80' },
   { id: 1, url: 'https://images.unsplash.com/photo-1467493330285-2fe6a9f97483?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80' },
   { id: 2, url: 'https://images.unsplash.com/photo-1511401677968-feade623d58d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80' },
-  { id: 3, url: 'https://images.unsplash.com/photo-1494447122076-9e353e4dfd0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80' },
+  { id: 3, url: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1924&q=80' },
 ]
 
 const MainPage = () => {
@@ -23,7 +23,7 @@ const MainPage = () => {
     <animated.div
       key={key}
       className="main-container"
-      style={{ ...props, backgroundImage: `url(${item.url})` }}
+      style={{ ...props, backgroundImage: `url(${item.url})` }} 
     />
   ))
 }

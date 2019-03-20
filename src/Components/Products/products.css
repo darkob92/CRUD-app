@@ -15,14 +15,22 @@
 .products-container::-webkit-scrollbar { 
   display: none;
 }
-.products {
+.product {
   width: 35rem;
-  height: 50rem;
-  background: blue;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  height: 55rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
-.products:nth-child(even) {
-  background: limegreen;
+.product-image {
+  width: 100%;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }

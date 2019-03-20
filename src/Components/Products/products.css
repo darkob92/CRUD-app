@@ -1,0 +1,28 @@
+.products-container {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 19%;
+  left: 25%;
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+  flex-wrap: wrap;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.products-container::-webkit-scrollbar { 
+  display: none;
+}
+.products {
+  width: 35rem;
+  height: 50rem;
+  background: blue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.products:nth-child(even) {
+  background: limegreen;
+}

@@ -1,0 +1,62 @@
+.footer-container {
+  height: 20rem;
+  width: 40rem;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.newsletter-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.newsletter-container h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+input.newsletter-text {
+  border: 0;
+  border-bottom: 1px solid #000;
+  width: 20rem;
+}
+
+input.newsletter-text:focus {
+  outline: none;
+}
+
+input.submit-button {
+  border: 0;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 7px 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+input.submit-button:hover {
+  background: #000;
+  color: #f0f0f0;
+}
